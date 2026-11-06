@@ -1,0 +1,33 @@
+# --- Jupyter ---
+.ipynb_checkpoints/
+_backups/
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.egg-info/
+.ipynb_checkpoints
+
+# --- Virtual environments ---
+venv/
+.venv/
+env/
+.virtual_documents
+
+# --- Data (uncomment if you don't want data in the repo) ---
+# data/
+# *.csv
+# *.h5
+# *.parquet
+
+# --- Secrets ---
+.env
+credentials*.json
+secrets*
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+~$*
+.vscode/
+.idea/
